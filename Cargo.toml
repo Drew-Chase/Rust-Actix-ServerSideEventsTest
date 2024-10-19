@@ -5,5 +5,8 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.9.0"
+actix-web-lab = "0.23.0"
 tokio = {version = "1.40.0", features = ["full"]}
-features = "0.10.0"
+futures-util = { version = "0.3.25", default-features = false, features = ["std"] }
+parking_lot = "0.12.1"
+time = "0.3.36"
